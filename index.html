@@ -43,7 +43,7 @@
             .div3{
                 margin-left: 30px;
             }
-            .button{
+            .submit{
                 background: #5b3aea;
                 color: white;
                 padding-top: 19px; 
@@ -52,15 +52,13 @@
                 padding-right: 190px;
                 margin-left: 9px;
                 margin-right: 6px;
+                border-radius: 8px;
             }
             .a1{
                 padding-left: 190px;
             }
             .div4{
                 margin-left: 30px;
-            }
-            .button{
-                border-radius: 8px;
             }
             .div5{
                 text-align: center;
@@ -71,30 +69,32 @@
         </style>
     </head>
     <body>
-        <fieldset class="f1">
-          <fieldset class="f2">
-             <div class="div1">
-               <h1>Login</h1>
-             </div>
-             <br>
-             <div class="div2">
-               <input type="email" placeholder="Email" name="email" class="input1">
-               <br><br>
-               <input type="password" placeholder="Password" name="password" class="input2">
-             </div>
-             <br>
-             <div class="div3">
-               <input type="checkbox"  name="checkbox" id="input3">
-               <label for="input3">Show Password<a href="ex2a.html" class="a1">Forgot Password?</a></label>
-             </div>
-             <br>
-             <div class="div4">
-               <button type="button" onclick="location.href='https://github.com/Dvfbg/Projects.github.io.git'" class="button">LOGIN</button>
-             </div>
-             <div class="div5">
-                <p>Don't have an account? <a href="ex2b.html" class="a2">Sign up</a></p>
-             </div>
-          </fieldset>
-        </fieldset>
+        <form>
+           <fieldset class="f1">
+               <fieldset class="f2">
+                  <div class="div1">
+                     <h1>Login</h1>
+                  </div>
+                  <br>
+                  <div class="div2">
+                     <input type="email" placeholder="Email" name="email" class="input1">
+                     <br><br>
+                     <input type="password" placeholder="Password" name="password" class="input2">
+                  </div>
+                  <br>
+                  <div class="div3">
+                     <input type="checkbox"  name="checkbox" id="input3">
+                     <label for="input3">Show Password<a href="ex2a.html" class="a1">Forgot Password?</a></label>
+                  </div>
+                  <br>
+                  <div class="div4">
+                     <button type="submit" class="submit">LOGIN</button>
+                  </div>
+                  <div class="div5">
+                     <p>Don't have an account? <a href="ex2b.html" class="a2">Sign up</a></p>
+                  </div>
+               </fieldset>
+           </fieldset>
+        </form>
     </body>
 </html>
